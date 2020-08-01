@@ -2,7 +2,7 @@
 
 ## Project Overview
 ### Refactoring previously written code
-Throughout the lesson on VBA, we were tasked with writing a VBA script that would analyze two years of data on green stocks available for trading on Wallstreet in the green_stocks.xlsm file.  The script searched though the data by year and returned the volume of each stock traded and determined the percentage of return or loss over the course of trading. The purpose of this final challenge was to take that previous script and to refactor it to be more efficient.  The hope is that this code would run more quickly than the original and could be applied to a larger dataset in future.
+Throughout the lesson on VBA, we were tasked with writing a VBA script that would analyze two years of data on green stocks available for trading on Wallstreet, working in the `green_stocks.xlsm` file.  The script searched though the data by year and returned the volume of each stock traded and determined the percentage of return or loss over the course of trading. The purpose of this final challenge was to take that previous script and to refactor it to be more efficient.  The hope is that this code would run more quickly than the original and could be applied to a larger dataset in future.
 
 ## Results 
 ### Stock Performance
@@ -13,7 +13,7 @@ In terms of stock performance, almost all of them had a better year in 2017 than
 ![VBA_Challenge_2018.PNG](https://github.com/Alawler12/stock_analysis/blob/master/VBA_Challenge_2018.PNG)
 
 ### Code Performance
-In relation to run times for the old code versus the refactored code, the refactored code also performed better.  The refactored code ran about 4 -5 times faster than the old code.  The refactored code ran at .094 seconds for 2017 data analysis and .086 seconds for 2018, as opposed to .417s and .410s respectively. 
+In relation to run times for the old code (`AllStocksAnalysis` macro) versus the refactored code (`AllStocksAnalysisRefactored` macro), the refactored code also performed better.  The refactored code ran about 4 -5 times faster than the old code.  The refactored code ran at .094 seconds for 2017 data analysis and .086 seconds for 2018, as opposed to .417s and .410s respectively. 
 
 The old code looped through each individual row of the worksheet and returned the volume, start price, and end price for each stock ticker and then output it to the output worksheet before moving on to loop through each row again for the next ticker: 
 ```

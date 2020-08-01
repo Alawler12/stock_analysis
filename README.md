@@ -2,7 +2,7 @@
 
 ## Project Overview
 ### Refactoring previously written code
-Throughout the lesson on VBA, we were tasked with writing a VBA script that would analyze two years of data on green stocks available for trading on Wallstreet.  The script searched though the data by year and returned the volume of each stock traded and determined the percentage of return or loss over the course of trading. The purpose of this final challenge was to take that previous script and to refactor it to be more efficient.  The hope is that this code would run more quickly than the original and could be applied to a larger dataset in future.
+Throughout the lesson on VBA, we were tasked with writing a VBA script that would analyze two years of data on green stocks available for trading on Wallstreet in the green_stocks.xlsm file.  The script searched though the data by year and returned the volume of each stock traded and determined the percentage of return or loss over the course of trading. The purpose of this final challenge was to take that previous script and to refactor it to be more efficient.  The hope is that this code would run more quickly than the original and could be applied to a larger dataset in future.
 
 ## Results 
 ### Stock Performance
